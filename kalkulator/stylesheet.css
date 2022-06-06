@@ -1,0 +1,65 @@
+html {
+  background-image: linear-gradient(#34eb52, #07827e);
+  background-attachment: fixed;
+}
+
+body {
+  font-family: "Source Sans  Pro", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 5em 0 2em;
+  text-align: center;
+}
+
+.calc {
+  font-size: 28px;
+  margin: 0 auto;
+  width: 10em;
+}
+
+.current-score {
+  color: white;
+  float: left;
+  line-height: 4em;
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 9em;
+  height: 3em;
+}
+
+#clear {
+  width: 4.5em;
+  margin: 0.2em;
+}
+
+#del {
+  width: 4.5em;
+  margin: 0.2em;
+}
+
+button {
+  border: 0;
+  background: rgba(42, 50, 113, 0.28);
+  color: white;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  font-size: 1em;
+  margin: 0.23em;
+  width: 2em;
+  height: 2em;
+  transition: all 0.5s;
+  cursor: default;
+}
+button:hover {
+  color: orange;
+  background-color: white;
+  cursor: default;
+}
+
+button::after {
+  animation: zoom 1s;
+  animation-iteration-count: 1;
+  cursor: pointer;
+}
