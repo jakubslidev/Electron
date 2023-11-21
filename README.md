@@ -1,1 +1,1 @@
-Simple electron calculator without node-module files
+Simple electron calculator
